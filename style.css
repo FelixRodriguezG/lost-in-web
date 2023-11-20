@@ -16,7 +16,7 @@ header {
 width: 100%;
 height: 12vh;
 font-size: 14px;
-box-shadow:10px 5px 5px black;
+box-shadow:10px 5px 5px rgb(241, 235, 235);
 }
 
 
@@ -26,7 +26,7 @@ box-shadow:10px 5px 5px black;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow:1px 1px 1px rgb(248,244,244);
+    box-shadow:1px 1px 1px rgb(250, 250, 250);
 }
 .img-blackHeart-nav {
     
@@ -91,7 +91,7 @@ form{
 .search input{
     height: 35px;
     width: 100%;
-    background-color: rgb(222, 219, 219);
+    background: rgba(232,217,217,.3);
     border-style: none;
     padding-left: 30px;
 
@@ -117,7 +117,7 @@ form{
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(254, 42, 42);
+    background-color:#fb3b49;
     color: rgb(255, 255, 255);
     border-style: none;
     
@@ -132,9 +132,8 @@ form{
     font-weight: bold;
     padding: 5px 20px 5px 20px;
     text-decoration: none;
-   
     box-shadow: 2px;
-    border-color: grey;
+    border:1px solid lightgray;
     color: black;
     
 }
@@ -147,7 +146,7 @@ form{
 }
 .container1{
     padding-top: 100px;
-    background:rgb(222, 219, 219);
+    background:rgba(232,217,217,.3);
     height: 60vh;
     width: 100%;
     display: flex;
@@ -188,7 +187,7 @@ article{
     height: 35px;
     width: 100px;
     font-size: 15px;
-    background-color: rgb(254, 42, 42);
+    background-color: #fb3b49;
     color: rgb(255, 255, 255);
     border-style: none;
     text-decoration: none;
@@ -225,14 +224,17 @@ article{
 }
 .container2 h2{
     width: 1100px;
-    height: 25px;
-    background-color: khaki;
-    padding-bottom: 30px;
-    padding-top: 35px;
-    text-overflow:clip;
+    
+    background-color: rgba(255,204,53,.4);
+    /* padding-bottom: 30px;
+    padding-top: 35px; */
+    /* text-overflow:clip; */
     margin-bottom: 40px;
     text-align: center;
     font-size: 45px;
+    transform: skew(9deg,0deg) ;
+    font-style: italic;
+    
     
 }
 .art-par{
@@ -247,31 +249,29 @@ article{
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
+    padding: auto;
+    
 }
 .container3 img{
     width: 40px;
     padding-bottom: 35px;
 }
 .container3 h4{
-    
     color:red;
-    font-size: 40px
+    font-size: 18px;
     justify-items:center;
-    padding-bottom: 30px;
-    
-    
+    padding-bottom: 30px; 
 }
 .container3 p{
     
     width: 350px;
-   
+
 }
 .create{
     display: flex;
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 150px;
-
 }
 .create button {
     background-color: black;
