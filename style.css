@@ -96,22 +96,19 @@ form{
     padding-left: 30px;
 
 }
-.icono-placeholder:focus{
-    outline: none;
+#icono-placeholder:focus{
+    outline:none;
     
 }
-.icono-placeholder{
-    
-    background-image: url(./assets/spaces_BedheEKvvT4UZlMvZ9G7_uploads_za6fdm14Cd0XMFkw6WAc_magnifying-glass.webp);
+#icono-placeholder{
+    background-image: url(https://felixrodriguezg.github.io/lost-in-web/assets/spaces_BedheEKvvT4UZlMvZ9G7_uploads_za6fdm14Cd0XMFkw6WAc_magnifying-glass.webp);
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position: left 8px center;
-    
 }
-#m-glass{
-    width: 20px;
 
-}
+
+
 .button-search{
     height: 35px;
     margin-left: 0px;
